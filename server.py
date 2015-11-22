@@ -51,7 +51,7 @@ def getposts():
         cc = make_response(json.dumps(id)).data
         print '<<',cc,'>>'
         print make_response(json.dumps(data)).data
-        return make_response(json.dumps(data))
+        #return make_response(json.dumps(data))
         #print data
         ret = []
         #unusual kind of values returned in flask
